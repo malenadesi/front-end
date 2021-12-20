@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>La Guadalupe Natural | Contacto</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./imagenes/icono.png">
+    <script src="https://kit.fontawesome.com/7274cc5c9e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="index.html" title="La Guadalupe Natural">
+                <img src="./imagenes/logo.png" alt="La Guadalupe Natural"/>
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#menu"><i class="fas fa-bars"></i></a>
+                    <div id="menu" class="menu">
+                        <div class="menu-contenido">
+                            <a href="#">X</a>
+                            <h2 class="logo">
+                                <img src="./imagenes/logo.png" alt="La Guadalupe Natural"/>
+                            </h2>
+                            <ul class="paginas">
+                                <li><a href="index.html">Productos</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                            </ul>
+                            <hr>
+                            <ul class="redes">
+                                <li><a href="https://www.instagram.com/laguadalupenatural/?hl=es"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://wwww.facebook.com/La-Guadalupe-Natural-1438717303089130/?_tn_=C-R"><i class="fab fa-facebook-square"></i></a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                </li>
+                <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-main contenedor-formulario">
+            <form class="producto formulario" id="formulario">
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                    <input type="text" id="form4Example1" class="form-control" />
+                    <label class="form-label" for="form4Example1">Nombre y Apellido</label>
+                </div>
+            
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="form4Example2" class="form-control" />
+                    <label class="form-label" for="form4Example2">Email</label>
+                </div>
+            
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                    <label class="form-label" for="form4Example3">Mensaje</label>
+                </div>
+            
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="form4Example4"
+                        checked
+                    />
+                    <label class="form-check-label" for="form4Example4">
+                        Enviarme una copia de este mensaje
+                    </label>
+                </div>
+            
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>DATOS DE CONTACTO</h3>
+        <ul class="pie">
+            <li><i class="fas fa-phone"></i> +54 0376 154393453</li>
+            <li><i class="fas fa-map-marker-alt"></i> Posadas, Misiones</li>
+        </ul>
+        <!-- Iframe -->
+        <iframe src="https://www.google.com/maps/d/embed?mid=1HTrq5nUDNqCpIpJzegPy-eukLGo" width="640" height="480"></iframe>
+    </footer>
+    <!-- Validación con Javascript -->
+    <script src="./validacion.js"></script>
+</body>
+</html>
+
